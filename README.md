@@ -1,10 +1,7 @@
 # WatchSlider
-Powerpoint slides controller for smart watches that run Android Wear.
+Powerpoint presentation controller for smart watches that run Android Wear OS, designed to take control of every single aspect regarding the presentation, from slides management to scheduled notifications through time. This project was implemented with the sole purpose of vanishing the need of manual pointers, therefore enhancing body communication through the freedom of hands.
 
-It allows you to move through the slides with different watch gestures as well
-as receive vibration notifications past a certain timeout in order for the user
-to control remaining time.
-
-The server is a Java application that must be run on the pc that hosts the
-power point software whereas the client is an Android Wear app that you can
-directly download from the app store.
+The implemented functionalities are the following:
+* Connection through wifi to the PC that hosts the presentation.
+* Slides management, allowing to move forward and backwards through the presentation.
+* Scheduled vibrating notifications. You can set certain timeouts and the watch will silently vibrate passed those deadlines so that you can control time flow through your presentation without even looking at the watch.
