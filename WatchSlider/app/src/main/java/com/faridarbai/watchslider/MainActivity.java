@@ -1,84 +1,45 @@
 package com.faridarbai.watchsliderbeta;
 
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.wearable.activity.WearableActivity;
+import android.view.KeyEvent;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.RelativeLayout;
 
 import java.io.PrintWriter;
 import java.net.Socket;
 
 public class MainActivity extends WearableActivity {
-    static public String SERVER_IP = "192.168.0.157";
-    static public int SERVER_PORT = 1010;
-
-    static public Button next_button;
-    static public Button back_button;
-
-    static public String BACK_CODE = "BACK\n";
-    static public String NEXT_CODE = "NEXT\n";
-
-    static public Socket socket;
-    static public PrintWriter writer;
-
-
+    
+    EditText ip_edit1, ip_edit2, ip_edit3, ip_edit4;
+    
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        setAmbientEnabled();
-
-        ConnectTask ctask = new ConnectTask("CONNECT");
-        ctask.execute();
-
+        
+        this.ip_edit1 = findViewById(R.id.ip_edit1);
+        this.ip_edit2 = findViewById(R.id.ip_edit2);
+        this.ip_edit3 = findViewById(R.id.ip_edit3);
+        this.ip_edit4 = findViewById(R.id.ip_edit4);
     }
-
-    class ConnectTask extends AsyncTask<Void, Void, Void> {
-        String type;
-        String message;
-
-        public ConnectTask(String type) {
-            super();
-            this.type = type;
-        }
-
-        public ConnectTask(String type, String message) {
-            super();
-            this.type = type;
-            this.message = message;
-        }
-
-        @Override
-        protected Void doInBackground(Void... voids) {
-            try {
-                if (type.equals("CONNECT")) {
-                    socket = new Socket(SERVER_IP, SERVER_PORT);
-                    writer = new PrintWriter(socket.getOutputStream());
-                } else {
-                    writer.write(this.message);
-                    writer.flush();
-                }
-
-            } catch (Exception ex) {
-                ex.printStackTrace();
-            }
-
-            return null;
-        }
+    
+    public void onDoneClicked(View view){
+        String ip_address = String.format("%s.%s.%s.%s", ip_edit1.getText().toString(),
+				  															ip_edit2.getText().toString(),
+				  															ip_edit3.getText().toString(),
+				  															ip_edit4.getText().toString());
+        
+        Intent presentation_intent = new Intent(this, PresentationActivity.class);
+        presentation_intent.putExtra("ip_address", ip_address);
+        
+        startActivity(presentation_intent);
     }
-
-    public void onNextClicked(View v){
-        ConnectTask ctask = new ConnectTask("MESSAGE", NEXT_CODE);
-        ctask.execute();
-    }
-
-    public void onBackClicked(View v){
-        ConnectTask ctask = new ConnectTask("MESSAGE", BACK_CODE);
-        ctask.execute();
-    }
-
-
 
 }
