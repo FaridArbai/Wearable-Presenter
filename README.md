@@ -6,5 +6,5 @@ The implemented functionalities are the following:
 * Slides management, allowing to move forward and backwards through the presentation.
 * Scheduled vibrating notifications: The user can set certain timeouts and the watch will silently vibrate passed those deadlines so that you can control the time flow through the presentation without even looking at the watch.
 
-## Demostration
+## Demo
 ![](http://faridarbai.ddns.net/wearable_presenter_images/presentation.gif)
