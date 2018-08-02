@@ -5,3 +5,6 @@ The implemented functionalities are the following:
 * Connection through wifi to the PC that hosts the presentation.
 * Slides management, allowing to move forward and backwards through the presentation.
 * Scheduled vibrating notifications: The user can set certain timeouts and the watch will silently vibrate passed those deadlines so that you can control the time flow through the presentation without even looking at the watch.
+
+## Demostration
+![](./snapshots/presentation.gif)
