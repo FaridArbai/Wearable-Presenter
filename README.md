@@ -7,4 +7,16 @@ The implemented functionalities are the following:
 * Scheduled vibrating notifications: The user can set certain timeouts and the watch will silently vibrate passed those deadlines so that you can control the time flow through the presentation without even looking at the watch.
 
 ## Demo
+
+### Connection to server
+![](./snapshots/config_ip.gif)
+
+### Timing configuration 1/2
+![](./snapshots/config_timing_1.gif)
+
+### Timing configuration 2/2
+![](./snapshots/config_timing_2.gif)
+
+### Final presentation
 ![](./snapshots/presentation.gif)
+
