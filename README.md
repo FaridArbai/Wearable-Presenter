@@ -23,4 +23,4 @@ The implemented functionalities are the following:
 ## Download
 [1] N/A
 
-###### App has been removed from Play Store on 30 Jul due to some backward compatibility issues with the renewed version, which includes multiple devices connection and authentication, useful for multi-speaker presentations. This latest version will be uploaded as soon as possible.
+###### This app was removed from Google Play since it didn't match some U.S. exportation policies. This issue has been solved in the latest release, therefore the app is currently being reviewed by the Google team in order to be published again.
