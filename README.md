@@ -20,7 +20,5 @@ The implemented functionalities are the following:
 ### Final presentation
 ![](./snapshots/presentation.gif)
 
-## Download
-[1] N/A
-
-###### This app was removed from Google Play since it didn't match some U.S. exportation policies. This issue has been solved in the latest release, therefore the app is currently being reviewed by the Google team in order to be published again.
+## Install
+[1] https://play.google.com/store/apps/details?id=com.faridarbai.watchsliderbeta
