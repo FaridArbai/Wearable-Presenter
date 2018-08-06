@@ -8,7 +8,7 @@ The implemented functionalities are the following:
 * **Multiplatform support**, allowing any OS in the PC that hosts the presentation (Windows, MAC, Linux, ChromeOS, etc) as well as any presentation platform (PowerPoint, Keynote, Adobe Acrobat Reader, Prezi, etc).
 
 # Instructions
-To install the client just go to the "Install" section bellow or search for "Wearable Presenter" in the Google Play Store. To install the server download the "WatchSliderServer.jar" and place it into an easily reachable path. To deploy it just open a command line and type java -jar WatchSliderServer.jar and it'll start accepting connections from the watch app. 
+To install the client just go to the "Install" section bellow or search for "Wearable Presenter" in the Google Play Store. To install the server download the "WatchSliderServer.jar" and place it into an easily reachable path. To deploy it just open a command line and type "java -jar WatchSliderServer.jar" and it'll start accepting connections from the watch app. 
 
 ## Demo
 
