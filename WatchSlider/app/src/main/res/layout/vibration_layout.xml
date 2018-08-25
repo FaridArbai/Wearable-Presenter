@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wear.widget.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/dark_grey"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        app:boxedEdges="all">
+
+        <TextView
+            android:id="@+id/title"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Vibration strength" />
+
+        <SeekBar
+            android:id="@+id/value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:max="400"
+            android:min="0"/>
+
+        <ImageButton
+            android:id="@+id/cancel_button"
+            android:background="@drawable/dismiss_button"
+            android:layout_gravity="bottom|left"
+            android:layout_height="48dp"
+            android:layout_width="48dp"
+            android:src="@drawable/cancel_icon" />
+
+        <ImageButton
+            android:id="@+id/done_button"
+            android:background="@drawable/main_button"
+            android:layout_gravity="bottom|right"
+            android:layout_height="48dp"
+            android:layout_width="48dp"
+            android:src="@drawable/ok_icon" />
+
+    </FrameLayout>
+</android.support.wear.widget.BoxInsetLayout>

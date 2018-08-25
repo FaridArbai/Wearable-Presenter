@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wear.widget.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/dark_grey"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity">
+
+    <android.support.wear.widget.WearableRecyclerView
+        android:id="@+id/checkpoints_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"/>
+
+    <ImageButton
+        android:id="@+id/cancel_button"
+        android:background="@drawable/dismiss_button"
+        android:layout_gravity="center|left"
+        android:layout_height="48dp"
+        android:layout_width="48dp"
+        android:src="@drawable/cancel_icon"
+        android:layout_marginLeft="7dp"/>
+
+    <ImageButton
+        android:id="@+id/add_button"
+        android:background="@drawable/extra_button"
+        android:layout_gravity="bottom|center"
+        android:layout_height="48dp"
+        android:layout_width="48dp"
+        android:src="@drawable/add_icon"
+        android:layout_marginBottom="7dp"/>
+
+    <ImageButton
+        android:id="@+id/done_button"
+        android:background="@drawable/main_button"
+        android:layout_gravity="center|right"
+        android:layout_height="48dp"
+        android:layout_width="48dp"
+        android:src="@drawable/ok_icon"
+        android:layout_marginRight="7dp"/>
+
+</android.support.wear.widget.BoxInsetLayout>

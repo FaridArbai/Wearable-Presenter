@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wear.widget.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/dark_grey"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        app:boxedEdges="all">
+
+        <TextView
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Server IP address:" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <EditText
+                android:id="@+id/ip_field1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:maxLength="3"
+                android:digits="0123456789"
+                android:inputType="numberDecimal"/>
+
+            <EditText
+                android:id="@+id/ip_field2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:maxLength="3"
+                android:digits="0123456789"
+                android:inputType="numberDecimal"/>
+
+            <EditText
+                android:id="@+id/ip_field3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:maxLength="3"
+                android:digits="0123456789"
+                android:inputType="numberDecimal"/>
+
+            <EditText
+                android:id="@+id/ip_field4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:maxLength="3"
+                android:digits="0123456789"
+                android:inputType="numberDecimal"/>
+
+        </LinearLayout>
+
+
+        <ImageButton
+            android:id="@+id/exit_button"
+            android:background="@drawable/dismiss_button"
+            android:layout_gravity="bottom|left"
+            android:layout_height="48dp"
+            android:layout_width="48dp"
+            android:src="@drawable/exit_icon" />
+
+        <ImageButton
+            android:id="@+id/done_button"
+            android:background="@drawable/main_button"
+            android:layout_gravity="bottom|right"
+            android:layout_height="48dp"
+            android:layout_width="48dp"
+            android:src="@drawable/ok_icon" />
+
+    </FrameLayout>
+</android.support.wear.widget.BoxInsetLayout>

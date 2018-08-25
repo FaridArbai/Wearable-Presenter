@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wear.widget.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/dark_grey"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        app:boxedEdges="all">
+
+        <TextView
+            android:id="@+id/remaining_time"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="19:43"
+            android:textSize="40dp"
+            android:textColor="#fff8e1"/>
+
+    </FrameLayout>
+
+    <android.support.wear.widget.CircularProgressLayout
+            android:id="@+id/background_progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            app:backgroundColor="#00000000"
+            app:colorSchemeColors="#ffe082"
+            app:strokeWidth="5dp"/>
+
+
+     <android.support.wear.widget.CircularProgressLayout
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="18dp"
+            app:backgroundColor="#00000000"
+            app:colorSchemeColors="#ffca28"
+            app:strokeWidth="9dp"/>
+
+    <android.support.wearable.view.DismissOverlayView
+    android:id="@+id/dismiss_overlay"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"/>
+
+</android.support.wear.widget.BoxInsetLayout>
