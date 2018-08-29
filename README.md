@@ -22,27 +22,27 @@ Execute the server on your desktop and take note of the displayed IP address. Th
 ### 2. Connect to the server
 Type the server's displayed IP address into your wearable device and as soon it connects it will take you to the next step.
 
-<img src="./snapshots/ip.png" width="25%" height="25%"/>
+<img src="./snapshots/ip.png" width="35%" height="35%"/>
 
 ### 3. Set up the duration
 Enter the expected time that your presentation will take. You will have a countdown on this time and also you'll be able to set up various notification points allong that time in the next step.
 
-<img src="./snapshots/duration.png" width="25%" height="25%"/>
+<img src="./snapshots/duration.png" width="35%" height="35%"/>
 
 ### 4. Choose your notification points
 Enter the points on which you would like to get notified in order to be aware of the remianing time. For example, we chose to be notified at minutes number 2, 5, 7 and 9 in the example bellow.
 
-<img src="./snapshots/checkpoints.png" width="25%" height="25%"/>
+<img src="./snapshots/checkpoints.png" width="35%" height="35%"/>
 
 ### 5. Set the notification strength
 Slide the displayed bar to modulate notification vibration strength depending on how sensitive you are. From 75% and above, all notifications are haptic and therefore silent.
 
-<img src="./snapshots/vibration.png" width="25%" height="25%"/>
+<img src="./snapshots/vibration.png" width="35%" height="35%"/>
 
 ### 6. Control your presentation
 Tap once into the screen to move forward through the presentation or double-tap in order to go back to the previous slide. If you would like to exit the presentation mode at any time, just keep the screen pressed and it'll take you to the previous set up screen.
 
-<img src="./snapshots/presentation.png" width="25%" height="25%"/>
+<img src="./snapshots/presentation.png" width="35%" height="35%"/>
 
 # Install
 [1] https://play.google.com/store/apps/details?id=com.faridarbai.watchsliderbeta
