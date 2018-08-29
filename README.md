@@ -16,7 +16,7 @@ You can find both the wearable app and the desktop controller on the [project's 
 # Tutorial
 ### 1. Launch the server
 Execute the server on your desktop and take note of the displayed IP address. This server will be in charge of receiving your device's commands and act upon them.
-![](./snapshots/server.png)
+<img src="./snapshots/server.png" width="50%" height="50%"/>
 
 ### 2. Connect to the server
 Type the server's displayed IP address into your wearable device and as soon it connects it will take you to the next step.
