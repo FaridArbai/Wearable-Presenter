@@ -4,7 +4,7 @@
 
 ![Wearable Presenter](./icons/wearable-presenter.png)
 
-## Description
+# Description
 Wereable Presenter is a presentation controller for wearable devices that run Android Wear OS, designed to take control of every single aspect regarding a presentation: from slides management to scheduled notifications. This project was implemented with the sole purpose of vanishing the need of manual pointers, therefore enhancing body language through the freedom of hands.
 
 ### License
