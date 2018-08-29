@@ -2,16 +2,13 @@
 > Built by Farid Arbai
 >> [Project's Website](www.faridarbai.com/wearable-presenter)
 
-Presentation controller for smart watches that run Android Wear OS, designed to take control of every single aspect regarding a presentation: from slides management to scheduled notifications. This project was implemented with the sole purpose of vanishing the need of manual pointers, therefore enhancing body language through the freedom of hands.
+Wereable Presenter is a presentation controller for wearable devices that run Android Wear OS, designed to take control of every single aspect regarding a presentation: from slides management to scheduled notifications. This project was implemented with the sole purpose of vanishing the need of manual pointers, therefore enhancing body language through the freedom of hands.
 
 The implemented functionalities are the following:
 * **Connection through wifi** to the PC that hosts the presentation.
-* **Slides management**, allowing to move forward and backwards through the slides of the presentation.
-* **Scheduled vibrating notifications** so that the user can set certain timeouts and the watch will silently vibrate passed those deadlines, therefore allowing control of the time flow during the presentation without even looking at the watch.
-* **Multiplatform support**, allowing any OS in the PC that hosts the presentation (Windows, MAC, Linux, ChromeOS, etc) as well as any presentation platform (PowerPoint, Keynote, Adobe Acrobat Reader, Prezi, etc).
-
-# Install
-You can find both the wearable app and the desktop controller on the [project's website](http://www.faridarbai.com/wearable-presenter)
+* **Slides management**, allowing to move forward and backwards through the presentation.
+* **Scheduled vibrating notifications** so that the user can set certain timeouts and the watch will silently vibrate passed those deadlines, therefore allowing remaining time control without even looking at the watch.
+* **Multiplatform management**, supporting any OS in the PC that hosts the presentation (Windows, MAC, Linux, ChromeOS, etc) as well as any presentation platform (PowerPoint, Keynote, Adobe Acrobat Reader, Prezi, etc).
 
 # Tutorial
 ### 1. Launch the server
@@ -45,7 +42,7 @@ Tap once into the screen to move forward through the presentation or double-tap 
 <img src="./snapshots/presentation.png" width="35%" height="35%"/>
 
 # Install
-[1] https://play.google.com/store/apps/details?id=com.faridarbai.watchsliderbeta
+You can find both the wearable app and the desktop controller on the [project's website](http://www.faridarbai.com/wearable-presenter)
 
 
 
