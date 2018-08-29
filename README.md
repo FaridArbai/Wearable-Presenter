@@ -1,6 +1,6 @@
 # Wearable Presenter
 > Built by Farid Arbai
->> [Project's Website](www.faridarbai.com/wearable-presenter)
+>> [Project's Website](http://www.faridarbai.com/wearable-presenter)
 
 ![Wearable Presenter](./icons/wearable-presenter.png)
 
