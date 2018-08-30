@@ -61,6 +61,21 @@ Tap once into the screen to move forward through the presentation or double-tap 
 
 <img src="./snapshots/presentation.png" width="35%" height="35%"/>
 
+## Demo
+
+### Connection to server
+![](./snapshots/config_ip.gif)
+
+ ### Timing configuration 1/2
+![](./snapshots/config_timing_1.gif)
+
+ ### Timing configuration 2/2
+![](./snapshots/config_timing_2.gif)
+
+ ### Final presentation
+![](./snapshots/presentation.gif)
+
+
 # Install
 You can find both the wearable app and the desktop controller on the [project's website](http://www.faridarbai.com/wearable-presenter)
 
